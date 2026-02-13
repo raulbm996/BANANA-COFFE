@@ -1,0 +1,101 @@
+<!-- Reservation Section -->
+<section class="reservation" id="reservar">
+    <div class="container">
+        <div class="reservation-grid">
+            <div class="reservation-info" data-aos="fade-right">
+                <span class="section-tag">Reserva Tu Mesa</span>
+                <h2 class="section-title">Te estamos <em>esperando</em></h2>
+                <p>Reserva tu mesa y asegúrate un hueco en nuestra barra o en nuestras mesas. Los fines de semana se
+                    llenan rápido, ¡no te quedes sin sitio!</p>
+                <div class="reservation-details">
+                    <div class="detail-item">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <strong>Horario</strong>
+                            <span>Lun - Vie: 9:00 - 17:00</span>
+                            <span>Sáb - Dom: 9:00 - 17:00</span>
+                        </div>
+                    </div>
+                    <div class="detail-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <strong>Ubicación</strong>
+                            <span>Plaza El Perejil, 11</span>
+                            <span>41500 Alcalá de Guadaíra, Sevilla</span>
+                        </div>
+                    </div>
+                    <div class="detail-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <strong>Teléfono</strong>
+                            <span>+34 691 32 16 90</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="reservation-form-container" data-aos="fade-left">
+                <form class="reservation-form" id="reservationForm">
+                    <div class="form-group">
+                        <label for="name">Nombre</label>
+                        <input type="text" id="name" name="name" placeholder="Tu nombre" required>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" placeholder="tu@email.com" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Teléfono</label>
+                            <input type="tel" id="phone" name="phone" placeholder="+34 600 000 000">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="date">Fecha</label>
+                            <input type="date" id="date" name="date" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="time">Hora</label>
+                            <select id="time" name="time" required>
+                                <option value="">Selecciona</option>
+                                <option value="09:00">9:00</option>
+                                <option value="09:30">9:30</option>
+                                <option value="10:00">10:00</option>
+                                <option value="10:30">10:30</option>
+                                <option value="11:00">11:00</option>
+                                <option value="11:30">11:30</option>
+                                <option value="12:00">12:00</option>
+                                <option value="12:30">12:30</option>
+                                <option value="13:00">13:00</option>
+                                <option value="13:30">13:30</option>
+                                <option value="14:00">14:00</option>
+                                <option value="14:30">14:30</option>
+                                <option value="15:00">15:00</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="guests">Personas</label>
+                        <select id="guests" name="guests" required>
+                            <option value="">¿Cuántos sois?</option>
+                            <option value="1">1 persona</option>
+                            <option value="2">2 personas</option>
+                            <option value="3">3 personas</option>
+                            <option value="4">4 personas</option>
+                            <option value="5">5 personas</option>
+                            <option value="6">6+ personas</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Notas especiales</label>
+                        <textarea id="message" name="message" placeholder="Alergias, celebración, preferencias..."
+                            rows="3"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-full">
+                        <i class="fas fa-calendar-check"></i> Reservar Mesa
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>

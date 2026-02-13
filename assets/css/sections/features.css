@@ -1,0 +1,46 @@
+/* ====================================
+   BANANA COFFEE — Features Strip
+   ==================================== */
+
+.features-strip {
+    background: var(--color-dark);
+    padding: 48px 0;
+}
+
+.features-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 32px;
+}
+
+.feature-item {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.feature-icon {
+    width: 52px;
+    height: 52px;
+    background: rgba(212, 165, 116, 0.15);
+    border-radius: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--color-primary);
+    font-size: 20px;
+    flex-shrink: 0;
+}
+
+.feature-text strong {
+    display: block;
+    color: var(--color-white);
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 2px;
+}
+
+.feature-text span {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 13px;
+}

@@ -1,0 +1,31 @@
+/* ====================================
+   BANANA COFFEE — Main Stylesheet
+   Imports all modular CSS files
+   ==================================== */
+
+/* Base */
+@import url('./variables.css');
+@import url('./reset.css');
+@import url('./typography.css');
+@import url('./buttons.css');
+
+/* Components */
+@import url('./components/loader.css');
+@import url('./components/navbar.css');
+@import url('./components/footer.css');
+
+/* Sections */
+@import url('./sections/hero.css');
+@import url('./sections/features.css');
+@import url('./sections/about.css');
+@import url('./sections/menu.css');
+@import url('./sections/parallax.css');
+@import url('./sections/gallery.css');
+@import url('./sections/testimonials.css');
+@import url('./sections/reservation.css');
+@import url('./sections/contact.css');
+@import url('./sections/newsletter.css');
+
+/* Utilities */
+@import url('./animations.css');
+@import url('./responsive.css');

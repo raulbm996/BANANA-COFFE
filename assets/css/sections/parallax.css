@@ -1,0 +1,67 @@
+/* ====================================
+   BANANA COFFEE — Parallax Quote
+   ==================================== */
+
+.parallax-quote {
+    position: relative;
+    min-height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.parallax-bg {
+    position: absolute;
+    inset: -50px;
+}
+
+.parallax-bg img {
+    width: 100%;
+    height: calc(100% + 100px);
+    object-fit: cover;
+}
+
+.parallax-overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(44, 33, 24, 0.7);
+}
+
+.parallax-content {
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    padding: 40px;
+    max-width: 700px;
+}
+
+.quote-icon {
+    font-family: var(--font-display);
+    font-size: 80px;
+    color: var(--color-primary);
+    line-height: 0.5;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.parallax-content blockquote {
+    font-family: var(--font-elegant);
+    font-size: clamp(24px, 4vw, 36px);
+    color: var(--color-white);
+    line-height: 1.5;
+    font-weight: 400;
+}
+
+.parallax-content blockquote em {
+    color: var(--color-accent);
+    font-style: italic;
+}
+
+.quote-author {
+    display: block;
+    margin-top: 24px;
+    font-size: 15px;
+    color: var(--color-primary-light);
+    letter-spacing: 2px;
+}

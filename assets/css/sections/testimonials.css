@@ -1,0 +1,104 @@
+/* ====================================
+   BANANA COFFEE — Testimonials Section
+   ==================================== */
+
+.testimonials {
+    padding: var(--section-padding);
+    background: var(--color-cream);
+}
+
+.testimonials-slider {
+    position: relative;
+    max-width: 700px;
+    margin: 0 auto;
+    min-height: 280px;
+}
+
+.testimonial-card {
+    position: absolute;
+    inset: 0;
+    background: var(--color-white);
+    border-radius: var(--radius-lg);
+    padding: 48px;
+    text-align: center;
+    box-shadow: var(--shadow-card);
+    opacity: 0;
+    transform: translateX(60px);
+    transition: all 0.5s ease;
+    pointer-events: none;
+}
+
+.testimonial-card.active {
+    opacity: 1;
+    transform: translateX(0);
+    pointer-events: all;
+}
+
+.testimonial-stars {
+    color: var(--color-accent);
+    font-size: 20px;
+    letter-spacing: 4px;
+    margin-bottom: 20px;
+}
+
+.testimonial-text {
+    font-family: var(--font-elegant);
+    font-size: 20px;
+    color: var(--color-text);
+    line-height: 1.7;
+    font-style: italic;
+    margin-bottom: 28px;
+}
+
+.testimonial-author {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+}
+
+.author-avatar {
+    width: 48px;
+    height: 48px;
+    background: var(--color-primary-light);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    color: var(--color-primary-dark);
+    font-size: 14px;
+}
+
+.testimonial-author strong {
+    display: block;
+    font-size: 15px;
+    color: var(--color-dark);
+}
+
+.testimonial-author span {
+    font-size: 13px;
+    color: var(--color-text-light);
+}
+
+.testimonial-dots {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 36px;
+}
+
+.dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: none;
+    background: var(--color-border);
+    cursor: pointer;
+    transition: var(--transition-base);
+}
+
+.dot.active {
+    background: var(--color-primary);
+    transform: scale(1.3);
+}

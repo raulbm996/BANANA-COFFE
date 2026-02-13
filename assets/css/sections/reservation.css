@@ -1,0 +1,121 @@
+/* ====================================
+   BANANA COFFEE — Reservation Section
+   ==================================== */
+
+.reservation {
+    padding: var(--section-padding);
+    background: var(--color-bg-warm);
+}
+
+.reservation-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 80px;
+    align-items: start;
+}
+
+.reservation-info .section-title {
+    margin-bottom: 20px;
+}
+
+.reservation-info>p {
+    font-size: 16px;
+    color: var(--color-text-light);
+    margin-bottom: 40px;
+    line-height: 1.8;
+}
+
+.reservation-details {
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+}
+
+.detail-item {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+}
+
+.detail-item i {
+    width: 48px;
+    height: 48px;
+    background: var(--color-primary-light);
+    border-radius: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--color-primary);
+    font-size: 18px;
+    flex-shrink: 0;
+}
+
+.detail-item strong {
+    display: block;
+    font-size: 15px;
+    color: var(--color-dark);
+    margin-bottom: 4px;
+}
+
+.detail-item span {
+    display: block;
+    font-size: 14px;
+    color: var(--color-text-light);
+}
+
+.reservation-form-container {
+    background: var(--color-white);
+    border-radius: var(--radius-lg);
+    padding: 48px;
+    box-shadow: var(--shadow-md);
+}
+
+.reservation-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.form-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.form-group label {
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--color-dark);
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+    padding: 14px 18px;
+    border: 1.5px solid var(--color-border);
+    border-radius: var(--radius-sm);
+    font-family: var(--font-body);
+    font-size: 15px;
+    color: var(--color-text);
+    background: var(--color-bg);
+    transition: var(--transition-base);
+    outline: none;
+}
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+    border-color: var(--color-primary);
+    box-shadow: 0 0 0 4px rgba(212, 165, 116, 0.15);
+}
+
+.form-group textarea {
+    resize: vertical;
+    min-height: 80px;
+}

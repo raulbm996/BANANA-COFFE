@@ -1,0 +1,50 @@
+/* ====================================
+   BANANA COFFEE — Loader
+   ==================================== */
+
+.loader {
+    position: fixed;
+    inset: 0;
+    background: var(--color-bg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10000;
+    transition: opacity 0.6s ease, visibility 0.6s ease;
+}
+
+.loader.hidden {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.loader-content {
+    text-align: center;
+}
+
+.loader-icon {
+    font-size: 48px;
+    animation: loaderBounce 1s ease infinite;
+}
+
+.loader-text {
+    display: block;
+    margin-top: 16px;
+    font-family: var(--font-display);
+    font-size: 24px;
+    font-weight: 600;
+    color: var(--color-dark);
+    letter-spacing: 2px;
+}
+
+@keyframes loaderBounce {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-12px);
+    }
+}

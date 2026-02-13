@@ -1,0 +1,891 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banana Coffee & Brunch — Alcalá de Guadaíra</title>
+    <meta name="description"
+        content="Banana Coffee & Brunch — Café de especialidad, desayunos ricos y tardes bonitas en Alcalá de Guadaíra, Sevilla. Un lugar bonito, tranquilo y con sabor.">
+    <meta name="author" content="Banana Coffee & Brunch">
+    <meta name="keywords"
+        content="brunch, breakfast, desayunos, café de especialidad, banana coffee, Alcalá de Guadaíra, Sevilla, sin gluten">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Banana Coffee & Brunch — Alcalá de Guadaíra">
+    <meta property="og:description"
+        content="Café de especialidad. Desayunos ricos. Tardes bonitas. Plaza El Perejil, 11 — Alcalá de Guadaíra, Sevilla.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.instagram.com/bananacoffee.alcala">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@300;400;500;600&family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&display=swap"
+        rel="stylesheet">
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+
+    <!-- Loader -->
+    <div class="loader" id="loader">
+        <div class="loader-content">
+            <div class="loader-icon">🍌</div>
+            <span class="loader-text">Banana Coffee</span>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#hero" class="nav-logo">
+                <span class="logo-icon">🍌</span>
+                <span class="logo-text">Banana Coffee</span>
+            </a>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#hero" class="nav-link active">Inicio</a></li>
+                <li><a href="#about" class="nav-link">Nosotros</a></li>
+                <li><a href="#menu" class="nav-link">Carta</a></li>
+                <li><a href="#gallery" class="nav-link">Galería</a></li>
+                <li><a href="#testimonials" class="nav-link">Opiniones</a></li>
+                <li><a href="#contact" class="nav-link">Contacto</a></li>
+            </ul>
+            <a href="#reservar" class="nav-cta">Reservar Mesa</a>
+            <button class="nav-toggle" id="navToggle" aria-label="Menú">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero-bg">
+            <img src="https://images.unsplash.com/photo-1504754524776-8f4f37790ca0?w=1920&q=80" alt="Brunch"
+                class="hero-img">
+            <div class="hero-overlay"></div>
+        </div>
+        <div class="hero-content">
+            <div class="hero-badge" data-aos="fade-down">
+                <span>✦ CAFÉ DE ESPECIALIDAD · ALCALÁ DE GUADAÍRA ✦</span>
+            </div>
+            <h1 class="hero-title" data-aos="fade-up">
+                Desayunos ricos.<br>Tardes <em>bonitas</em>
+            </h1>
+            <p class="hero-subtitle" data-aos="fade-up" data-aos-delay="200">
+                Un lugar bonito, tranquilo y con sabor, donde cada taza de café<br>
+                y cada día se disfrutan sin prisa.
+            </p>
+            <div class="hero-actions" data-aos="fade-up" data-aos-delay="400">
+                <a href="#menu" class="btn btn-primary">Descubre la Carta</a>
+                <a href="#about" class="btn btn-outline">Nuestra Historia</a>
+            </div>
+            <div class="hero-scroll">
+                <a href="#about">
+                    <div class="scroll-indicator">
+                        <div class="scroll-dot"></div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Strip -->
+    <section class="features-strip">
+        <div class="container">
+            <div class="features-grid">
+                <div class="feature-item" data-aos="fade-up">
+                    <div class="feature-icon"><i class="fas fa-leaf"></i></div>
+                    <div class="feature-text">
+                        <strong>Ingredientes Frescos</strong>
+                        <span>Productos locales y de temporada</span>
+                    </div>
+                </div>
+                <div class="feature-item" data-aos="fade-up" data-aos-delay="100">
+                    <div class="feature-icon"><i class="fas fa-mug-hot"></i></div>
+                    <div class="feature-text">
+                        <strong>Café de Especialidad</strong>
+                        <span>Tostado artesanal cada semana</span>
+                    </div>
+                </div>
+                <div class="feature-item" data-aos="fade-up" data-aos-delay="200">
+                    <div class="feature-icon"><i class="fas fa-heart"></i></div>
+                    <div class="feature-text">
+                        <strong>Hecho con Amor</strong>
+                        <span>Recetas originales y caseras</span>
+                    </div>
+                </div>
+                <div class="feature-item" data-aos="fade-up" data-aos-delay="300">
+                    <div class="feature-icon"><i class="fas fa-wheat-awn-circle-exclamation"></i></div>
+                    <div class="feature-text">
+                        <strong>Opciones Sin Gluten</strong>
+                        <span>Desayunos y bowls aptos para celíacos</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-images" data-aos="fade-right">
+                    <div class="about-img-main">
+                        <img src="https://images.unsplash.com/photo-1554118811-1e0d58224f24?w=600&q=80"
+                            alt="Interior Banana Coffee">
+                    </div>
+                    <div class="about-img-secondary">
+                        <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=400&q=80"
+                            alt="Café de especialidad">
+                    </div>
+                    <div class="about-experience-badge">
+                        <span class="exp-number">2025</span>
+                        <span class="exp-text">Año de<br>apertura</span>
+                    </div>
+                </div>
+                <div class="about-content" data-aos="fade-left">
+                    <span class="section-tag">Nuestra Historia</span>
+                    <h2 class="section-title">Un lugar bonito, tranquilo y con <em>sabor</em></h2>
+                    <p class="about-text">
+                        Nacimos con una idea sencilla: crear un lugar bonito, tranquilo y con sabor,
+                        donde cada taza de café y cada día se disfruten sin prisa. Porque el buen
+                        café se nota… y se recuerda.
+                    </p>
+                    <p class="about-text">
+                        En Banana Coffee & Brunch cuidamos cada detalle para que empieces el día
+                        bonito, hagas una paradita de paso o disfrutes del solito de la tarde.
+                        Trabajamos con café de especialidad y ofrecemos opciones sin gluten
+                        para que nadie se quede sin disfrutar.
+                    </p>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <span class="stat-number" data-count="100">0</span><span class="stat-symbol">%</span>
+                            <span class="stat-label">Café de especialidad</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number" data-count="1500">0</span><span class="stat-symbol">+</span>
+                            <span class="stat-label">Seguidores en Instagram</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number" data-count="2025">0</span>
+                            <span class="stat-label">Año de apertura</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section class="menu-section" id="menu">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-tag">Nuestra Carta</span>
+                <h2 class="section-title">Sabores que enamoran</h2>
+                <p class="section-desc">Cada plato es una combinación pensada para sorprenderte</p>
+            </div>
+
+            <div class="menu-categories" data-aos="fade-up">
+                <button class="menu-cat-btn active" data-category="all">Todo</button>
+                <button class="menu-cat-btn" data-category="brunch">Brunch</button>
+                <button class="menu-cat-btn" data-category="dulce">Dulce</button>
+                <button class="menu-cat-btn" data-category="salado">Salado</button>
+                <button class="menu-cat-btn" data-category="bebidas">Bebidas</button>
+            </div>
+
+            <div class="menu-grid">
+                <!-- Brunch Items -->
+                <div class="menu-card" data-category="brunch" data-aos="fade-up">
+                    <div class="menu-card-img">
+                        <img src="https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?w=400&q=80"
+                            alt="Banana Royale">
+                        <span class="menu-badge">⭐ Popular</span>
+                    </div>
+                    <div class="menu-card-content">
+                        <div class="menu-card-header">
+                            <h3>Banana Royale</h3>
+                            <span class="menu-price">€12.90</span>
+                        </div>
+                        <p>Tostada de masa madre, aguacate, huevo poché, salmón ahumado y microgreens</p>
+                        <div class="menu-tags">
+                            <span class="tag">🥑 Saludable</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="menu-card" data-category="brunch" data-aos="fade-up" data-aos-delay="100">
+                    <div class="menu-card-img">
+                        <img src="https://images.unsplash.com/photo-1484723091739-30a097e8f929?w=400&q=80"
+                            alt="French Toast Deluxe">
+                        <span class="menu-badge best">🍌 Signature</span>
+                    </div>
+                    <div class="menu-card-content">
+                        <div class="menu-card-header">
+                            <h3>French Toast Deluxe</h3>
+                            <span class="menu-price">€11.50</span>
+                        </div>
+                        <p>Torrijas de brioche con plátano caramelizado, frutos rojos y sirope de arce</p>
+                        <div class="menu-tags">
+                            <span class="tag">🍯 Dulce</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="menu-card" data-category="salado" data-aos="fade-up" data-aos-delay="200">
+                    <div class="menu-card-img">
+                        <img src="https://images.unsplash.com/photo-1525351484163-7529414344d8?w=400&q=80"
+                            alt="Eggs Benedict">
+                    </div>
+                    <div class="menu-card-content">
+                        <div class="menu-card-header">
+                            <h3>Eggs Benedict</h3>
+                            <span class="menu-price">€10.90</span>
+                        </div>
+                        <p>Muffin inglés, jamón ibérico, huevos poché y salsa holandesa casera</p>
+                        <div class="menu-tags">
+                            <span class="tag">🍳 Clásico</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="menu-card" data-category="dulce" data-aos="fade-up">
+                    <div class="menu-card-img">
+                        <img src="https://images.unsplash.com/photo-1506084868230-bb9d95c24759?w=400&q=80"
+                            alt="Pancake Stack">
+                    </div>
+                    <div class="menu-card-content">
+                        <div class="menu-card-header">
+                            <h3>Pancake Stack</h3>
+                            <span class="menu-price">€9.90</span>
+                        </div>
+                        <p>Torre de pancakes esponjosos con Nutella, plátano, fresas y nata montada</p>
+                        <div class="menu-tags">
+                            <span class="tag">🍫 Indulgente</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="menu-card" data-category="salado" data-aos="fade-up" data-aos-delay="100">
+                    <div class="menu-card-img">
+                        <img src="https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=400&q=80"
+                            alt="Açaí Power Bowl">
+                        <span class="menu-badge">🌿 Vegano</span>
+                    </div>
+                    <div class="menu-card-content">
+                        <div class="menu-card-header">
+                            <h3>Açaí Power Bowl</h3>
+                            <span class="menu-price">€10.50</span>
+                        </div>
+                        <p>Bowl de açaí con granola casera, frutas de temporada, coco y semillas de chía</p>
+                        <div class="menu-tags">
+                            <span class="tag">🌱 Vegano</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="menu-card" data-category="bebidas" data-aos="fade-up" data-aos-delay="200">
+                    <div class="menu-card-img">
+                        <img src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735?w=400&q=80"
+                            alt="Specialty Coffee">
+                    </div>
+                    <div class="menu-card-content">
+                        <div class="menu-card-header">
+                            <h3>Banana Latte</h3>
+                            <span class="menu-price">€4.90</span>
+                        </div>
+                        <p>Nuestro latte signature con espresso de origen, leche cremosa y toque de plátano</p>
+                        <div class="menu-tags">
+                            <span class="tag">☕ Signature</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="menu-card" data-category="bebidas" data-aos="fade-up">
+                    <div class="menu-card-img">
+                        <img src="https://images.unsplash.com/photo-1556679343-c7306c1976bc?w=400&q=80"
+                            alt="Zumos naturales">
+                    </div>
+                    <div class="menu-card-content">
+                        <div class="menu-card-header">
+                            <h3>Zumos Freshly Made</h3>
+                            <span class="menu-price">€5.50</span>
+                        </div>
+                        <p>Zumos recién exprimidos: naranja, tropical, verde detox y frutos rojos</p>
+                        <div class="menu-tags">
+                            <span class="tag">🍊 Natural</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="menu-card" data-category="dulce" data-aos="fade-up" data-aos-delay="100">
+                    <div class="menu-card-img">
+                        <img src="https://images.unsplash.com/photo-1571115177098-24ec42ed204d?w=400&q=80"
+                            alt="Banana Bread">
+                        <span class="menu-badge best">🍌 Signature</span>
+                    </div>
+                    <div class="menu-card-content">
+                        <div class="menu-card-header">
+                            <h3>Banana Bread Casero</h3>
+                            <span class="menu-price">€5.90</span>
+                        </div>
+                        <p>Nuestro famoso banana bread recién horneado con nueces y toque de canela</p>
+                        <div class="menu-tags">
+                            <span class="tag">🏠 Casero</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-cta" data-aos="fade-up">
+                <p>¿Quieres ver nuestra carta completa?</p>
+                <a href="#" class="btn btn-primary">Carta Completa (PDF)</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Parallax Quote -->
+    <section class="parallax-quote">
+        <div class="parallax-bg">
+            <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=1920&q=80" alt="Ambiente">
+        </div>
+        <div class="parallax-overlay"></div>
+        <div class="parallax-content" data-aos="zoom-in">
+            <span class="quote-icon">"</span>
+            <blockquote>
+                Porque el buen café se nota…<br>
+                y se <em>recuerda</em>.
+            </blockquote>
+            <span class="quote-author">— Banana Coffee & Brunch</span>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery" id="gallery">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-tag">Galería</span>
+                <h2 class="section-title">Momentos Banana Coffee</h2>
+                <p class="section-desc">Cada plato, cada rincón, cada momento... diseñado para ser compartido</p>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-item gallery-item-lg" data-aos="fade-up">
+                    <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=600&q=80" alt="Café">
+                    <div class="gallery-overlay">
+                        <span><i class="fas fa-camera"></i> Nuestro café</span>
+                    </div>
+                </div>
+                <div class="gallery-item" data-aos="fade-up" data-aos-delay="100">
+                    <img src="https://images.unsplash.com/photo-1559339352-11d035aa65de?w=400&q=80"
+                        alt="Flores y decoración">
+                    <div class="gallery-overlay">
+                        <span><i class="fas fa-camera"></i> Ambiente</span>
+                    </div>
+                </div>
+                <div class="gallery-item" data-aos="fade-up" data-aos-delay="200">
+                    <img src="https://images.unsplash.com/photo-1551024506-0bccd828d307?w=400&q=80" alt="Croissant">
+                    <div class="gallery-overlay">
+                        <span><i class="fas fa-camera"></i> Bollería artesanal</span>
+                    </div>
+                </div>
+                <div class="gallery-item" data-aos="fade-up" data-aos-delay="100">
+                    <img src="https://images.unsplash.com/photo-1600093463592-8e36ae95ef56?w=400&q=80" alt="Interior">
+                    <div class="gallery-overlay">
+                        <span><i class="fas fa-camera"></i> Nuestro local</span>
+                    </div>
+                </div>
+                <div class="gallery-item gallery-item-lg" data-aos="fade-up">
+                    <img src="https://images.unsplash.com/photo-1482049016688-2d3e1b311543?w=600&q=80" alt="Plato">
+                    <div class="gallery-overlay">
+                        <span><i class="fas fa-camera"></i> Platos de autor</span>
+                    </div>
+                </div>
+                <div class="gallery-item" data-aos="fade-up" data-aos-delay="200">
+                    <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=400&q=80"
+                        alt="Restaurante">
+                    <div class="gallery-overlay">
+                        <span><i class="fas fa-camera"></i> Terraza</span>
+                    </div>
+                </div>
+            </div>
+            <div class="gallery-cta" data-aos="fade-up">
+                <p>Síguenos para ver más</p>
+                <a href="https://www.instagram.com/bananacoffee.alcala" target="_blank" class="btn-instagram"><i
+                        class="fab fa-instagram"></i> @bananacoffee.alcala</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials" id="testimonials">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-tag">Opiniones</span>
+                <h2 class="section-title">Lo que dicen de nosotros</h2>
+            </div>
+            <div class="testimonials-slider" data-aos="fade-up">
+                <div class="testimonial-card active">
+                    <div class="testimonial-stars">★★★★★</div>
+                    <p class="testimonial-text">"El mejor brunch de la ciudad, sin duda. Los pancakes son increíbles y
+                        el café es de otro nivel. El ambiente es precioso y el personal súper amable."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">ML</div>
+                        <div>
+                            <strong>María López</strong>
+                            <span>Google Reviews</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">★★★★★</div>
+                    <p class="testimonial-text">"He encontrado mi lugar favorito para los sábados. El Banana Royale es
+                        espectacular y el banana bread casero es adictivo. 100% recomendado."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">CG</div>
+                        <div>
+                            <strong>Carlos García</strong>
+                            <span>TripAdvisor</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">★★★★★</div>
+                    <p class="testimonial-text">"Opciones veganas de verdad, no las típicas. Se nota que cuidan cada
+                        detalle. El açaí bowl está riquísimo y el espacio es super instagrameable."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">AS</div>
+                        <div>
+                            <strong>Ana Sánchez</strong>
+                            <span>Instagram</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-dots">
+                <button class="dot active" data-index="0"></button>
+                <button class="dot" data-index="1"></button>
+                <button class="dot" data-index="2"></button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reservation Section -->
+    <section class="reservation" id="reservar">
+        <div class="container">
+            <div class="reservation-grid">
+                <div class="reservation-info" data-aos="fade-right">
+                    <span class="section-tag">Reserva Tu Mesa</span>
+                    <h2 class="section-title">Te estamos <em>esperando</em></h2>
+                    <p>Reserva tu mesa y asegúrate un hueco en nuestra barra o en nuestras mesas. Los fines de semana se
+                        llenan rápido, ¡no te quedes sin sitio!</p>
+                    <div class="reservation-details">
+                        <div class="detail-item">
+                            <i class="fas fa-clock"></i>
+                            <div>
+                                <strong>Horario</strong>
+                                <span>Lun - Vie: 9:00 - 17:00</span>
+                                <span>Sáb - Dom: 9:00 - 17:00</span>
+                            </div>
+                        </div>
+                        <div class="detail-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <strong>Ubicación</strong>
+                                <span>Plaza El Perejil, 11</span>
+                                <span>41500 Alcalá de Guadaíra, Sevilla</span>
+                            </div>
+                        </div>
+                        <div class="detail-item">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <strong>Teléfono</strong>
+                                <span>+34 691 32 16 90</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="reservation-form-container" data-aos="fade-left">
+                    <form class="reservation-form" id="reservationForm">
+                        <div class="form-group">
+                            <label for="name">Nombre</label>
+                            <input type="text" id="name" name="name" placeholder="Tu nombre" required>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email" placeholder="tu@email.com" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">Teléfono</label>
+                                <input type="tel" id="phone" name="phone" placeholder="+34 600 000 000">
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="date">Fecha</label>
+                                <input type="date" id="date" name="date" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="time">Hora</label>
+                                <select id="time" name="time" required>
+                                    <option value="">Selecciona</option>
+                                    <option value="09:00">9:00</option>
+                                    <option value="09:30">9:30</option>
+                                    <option value="10:00">10:00</option>
+                                    <option value="10:30">10:30</option>
+                                    <option value="11:00">11:00</option>
+                                    <option value="11:30">11:30</option>
+                                    <option value="12:00">12:00</option>
+                                    <option value="12:30">12:30</option>
+                                    <option value="13:00">13:00</option>
+                                    <option value="13:30">13:30</option>
+                                    <option value="14:00">14:00</option>
+                                    <option value="14:30">14:30</option>
+                                    <option value="15:00">15:00</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="guests">Personas</label>
+                            <select id="guests" name="guests" required>
+                                <option value="">¿Cuántos sois?</option>
+                                <option value="1">1 persona</option>
+                                <option value="2">2 personas</option>
+                                <option value="3">3 personas</option>
+                                <option value="4">4 personas</option>
+                                <option value="5">5 personas</option>
+                                <option value="6">6+ personas</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Notas especiales</label>
+                            <textarea id="message" name="message" placeholder="Alergias, celebración, preferencias..."
+                                rows="3"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full">
+                            <i class="fas fa-calendar-check"></i> Reservar Mesa
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact / Map Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-map" data-aos="fade-up">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3172.5!2d-5.8535!3d37.3335!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzfCsDIwJzAwLjciTiA1wrA1MScxMi41Ilc!5e0!3m2!1ses!2ses!4v1700000000000"
+                        width="100%" height="100%" style="border:0; border-radius: 20px;" allowfullscreen=""
+                        loading="lazy">
+                    </iframe>
+                </div>
+                <div class="contact-info" data-aos="fade-up" data-aos-delay="200">
+                    <h3>Encuéntranos</h3>
+                    <p>Estamos en plena Plaza El Perejil, en el corazón de Alcalá de Guadaíra. ¡Te esperamos!</p>
+                    <div class="contact-socials">
+                        <a href="https://www.instagram.com/bananacoffee.alcala" target="_blank" class="social-link"
+                            aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.tiktok.com/@bananacoffee.alcala" target="_blank" class="social-link"
+                            aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+                        <a href="tel:+34691321690" class="social-link" aria-label="Llámanos"><i
+                                class="fas fa-phone"></i></a>
+                        <a href="https://maps.google.com/?q=Plaza+El+Perejil+11+Alcala+de+Guadaira" target="_blank"
+                            class="social-link" aria-label="Google Maps"><i class="fab fa-google"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter -->
+    <section class="newsletter">
+        <div class="container">
+            <div class="newsletter-content" data-aos="fade-up">
+                <div class="newsletter-text">
+                    <span class="section-tag">Newsletter</span>
+                    <h3>No te pierdas nada</h3>
+                    <p>Suscríbete y recibe ofertas exclusivas, nuevos platos y eventos especiales.</p>
+                </div>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Tu email" required>
+                    <button type="submit" class="btn btn-primary">Suscribirme</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <div class="footer-logo">
+                        <span class="logo-icon">🍌</span>
+                        <span class="logo-text">Banana Coffee</span>
+                    </div>
+                    <p>Café de especialidad. Desayunos ricos. Tardes bonitas. 💛 Spoiler: te va a encantar.</p>
+                    <div class="footer-socials">
+                        <a href="https://www.instagram.com/bananacoffee.alcala" target="_blank"
+                            aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.tiktok.com/@bananacoffee.alcala" target="_blank" aria-label="TikTok"><i
+                                class="fab fa-tiktok"></i></a>
+                        <a href="tel:+34691321690" aria-label="Teléfono"><i class="fas fa-phone"></i></a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h4>Navegación</h4>
+                    <ul>
+                        <li><a href="#hero">Inicio</a></li>
+                        <li><a href="#about">Nosotros</a></li>
+                        <li><a href="#menu">Carta</a></li>
+                        <li><a href="#gallery">Galería</a></li>
+                        <li><a href="#contact">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Horario</h4>
+                    <ul>
+                        <li>Lunes - Viernes</li>
+                        <li><strong>9:00 - 17:00</strong></li>
+                        <li>Sábado - Domingo</li>
+                        <li><strong>9:00 - 17:00</strong></li>
+                        <li class="mt">Festivos: Consultar</li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Contacto</h4>
+                    <ul>
+                        <li>Plaza El Perejil, 11</li>
+                        <li>41500 Alcalá de Guadaíra, Sevilla</li>
+                        <li><a href="tel:+34691321690">691 321 690</a></li>
+                        <li><a href="mailto:hola@bananacoffee.es">hola@bananacoffee.es</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Banana Coffee & Brunch. Todos los derechos reservados.</p>
+                <p>Hecho con 🍌 y mucho ☕</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to top -->
+    <button class="back-to-top" id="backToTop" aria-label="Volver arriba">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- JavaScript (inline — no modules needed) -->
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+
+            /* === LOADER === */
+            const loader = document.getElementById('loader');
+            if (loader) {
+                window.addEventListener('load', () => {
+                    setTimeout(() => loader.classList.add('hidden'), 800);
+                });
+                setTimeout(() => loader.classList.add('hidden'), 3000);
+            }
+
+            /* === NAVBAR === */
+            const navbar = document.getElementById('navbar');
+            const backToTop = document.getElementById('backToTop');
+            const navToggle = document.getElementById('navToggle');
+            const navMenu = document.getElementById('navMenu');
+
+            if (navbar) {
+                function handleScroll() {
+                    const scrollY = window.scrollY;
+                    navbar.classList.toggle('scrolled', scrollY > 60);
+                    if (backToTop) backToTop.classList.toggle('visible', scrollY > 600);
+                }
+                window.addEventListener('scroll', handleScroll, { passive: true });
+                handleScroll();
+            }
+
+            if (backToTop) {
+                backToTop.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
+            }
+
+            if (navToggle && navMenu) {
+                navToggle.addEventListener('click', () => {
+                    navToggle.classList.toggle('active');
+                    navMenu.classList.toggle('active');
+                    document.body.style.overflow = navMenu.classList.contains('active') ? 'hidden' : '';
+                });
+                document.querySelectorAll('.nav-link').forEach(link => {
+                    link.addEventListener('click', () => {
+                        navToggle.classList.remove('active');
+                        navMenu.classList.remove('active');
+                        document.body.style.overflow = '';
+                    });
+                });
+            }
+
+            // Active nav link on scroll
+            const sections = document.querySelectorAll('section[id]');
+            const navLinks = document.querySelectorAll('.nav-link');
+            function updateActiveLink() {
+                const scrollY = window.scrollY + 200;
+                sections.forEach(section => {
+                    const top = section.offsetTop;
+                    const height = section.offsetHeight;
+                    const id = section.getAttribute('id');
+                    if (scrollY >= top && scrollY < top + height) {
+                        navLinks.forEach(link => {
+                            link.classList.remove('active');
+                            if (link.getAttribute('href') === '#' + id) link.classList.add('active');
+                        });
+                    }
+                });
+            }
+            window.addEventListener('scroll', updateActiveLink, { passive: true });
+
+            /* === SCROLL ANIMATIONS === */
+            const animObserver = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        const delay = entry.target.getAttribute('data-aos-delay') || 0;
+                        setTimeout(() => entry.target.classList.add('aos-animate'), parseInt(delay));
+                        animObserver.unobserve(entry.target);
+                    }
+                });
+            }, { root: null, rootMargin: '0px 0px -80px 0px', threshold: 0.1 });
+
+            document.querySelectorAll('[data-aos]').forEach(el => animObserver.observe(el));
+
+            /* === COUNTER ANIMATION === */
+            const statsSection = document.querySelector('.about-stats');
+            if (statsSection) {
+                const counterObserver = new IntersectionObserver((entries) => {
+                    entries.forEach(entry => {
+                        if (entry.isIntersecting) {
+                            entry.target.querySelectorAll('.stat-number[data-count]').forEach(counter => {
+                                const target = parseInt(counter.getAttribute('data-count'));
+                                const duration = 2000;
+                                const step = target / (duration / 16);
+                                let current = 0;
+                                const update = () => {
+                                    current += step;
+                                    if (current < target) {
+                                        counter.textContent = Math.floor(current);
+                                        requestAnimationFrame(update);
+                                    } else {
+                                        counter.textContent = target;
+                                    }
+                                };
+                                update();
+                            });
+                            counterObserver.unobserve(entry.target);
+                        }
+                    });
+                }, { threshold: 0.5 });
+                counterObserver.observe(statsSection);
+            }
+
+            /* === PARALLAX === */
+            const parallaxBg = document.querySelector('.parallax-bg');
+            if (parallaxBg) {
+                window.addEventListener('scroll', () => {
+                    const section = document.querySelector('.parallax-quote');
+                    if (!section) return;
+                    const rect = section.getBoundingClientRect();
+                    if (rect.top < window.innerHeight && rect.bottom > 0) {
+                        parallaxBg.style.transform = 'translateY(' + (rect.top - window.innerHeight) * 0.3 + 'px)';
+                    }
+                }, { passive: true });
+            }
+
+            /* === MENU FILTER === */
+            const categoryBtns = document.querySelectorAll('.menu-cat-btn');
+            const menuCards = document.querySelectorAll('.menu-card');
+            if (categoryBtns.length && menuCards.length) {
+                categoryBtns.forEach(btn => {
+                    btn.addEventListener('click', () => {
+                        categoryBtns.forEach(b => b.classList.remove('active'));
+                        btn.classList.add('active');
+                        const cat = btn.getAttribute('data-category');
+                        menuCards.forEach((card, i) => {
+                            if (cat === 'all' || card.getAttribute('data-category') === cat) {
+                                card.classList.remove('hidden');
+                                card.style.animation = 'fadeInUp 0.4s ease ' + i * 0.06 + 's both';
+                            } else {
+                                card.classList.add('hidden');
+                                card.style.animation = '';
+                            }
+                        });
+                    });
+                });
+            }
+
+            /* === TESTIMONIALS SLIDER === */
+            const testimonialCards = document.querySelectorAll('.testimonial-card');
+            const dots = document.querySelectorAll('.dot');
+            if (testimonialCards.length && dots.length) {
+                let currentT = 0;
+                function showTestimonial(index) {
+                    testimonialCards.forEach(c => { c.classList.remove('active'); c.style.transform = 'translateX(60px)'; });
+                    dots.forEach(d => d.classList.remove('active'));
+                    testimonialCards[index].classList.add('active');
+                    testimonialCards[index].style.transform = 'translateX(0)';
+                    dots[index].classList.add('active');
+                    currentT = index;
+                }
+                let tInterval = setInterval(() => showTestimonial((currentT + 1) % testimonialCards.length), 5000);
+                dots.forEach(dot => {
+                    dot.addEventListener('click', () => {
+                        clearInterval(tInterval);
+                        showTestimonial(parseInt(dot.getAttribute('data-index')));
+                        tInterval = setInterval(() => showTestimonial((currentT + 1) % testimonialCards.length), 5000);
+                    });
+                });
+            }
+
+            /* === RESERVATION FORM === */
+            const reservationForm = document.getElementById('reservationForm');
+            if (reservationForm) {
+                const dateInput = document.getElementById('date');
+                if (dateInput) dateInput.setAttribute('min', new Date().toISOString().split('T')[0]);
+
+                reservationForm.addEventListener('submit', (e) => {
+                    e.preventDefault();
+                    const btn = reservationForm.querySelector('button[type="submit"]');
+                    const orig = btn.innerHTML;
+                    btn.innerHTML = '<i class="fas fa-check"></i> ¡Reserva Enviada!';
+                    btn.style.background = 'var(--color-success)';
+                    btn.disabled = true;
+                    setTimeout(() => { btn.innerHTML = orig; btn.style.background = ''; btn.disabled = false; reservationForm.reset(); }, 3000);
+                });
+            }
+
+            /* === NEWSLETTER FORM === */
+            const newsletterForm = document.querySelector('.newsletter-form');
+            if (newsletterForm) {
+                newsletterForm.addEventListener('submit', (e) => {
+                    e.preventDefault();
+                    const input = newsletterForm.querySelector('input');
+                    const btn = newsletterForm.querySelector('button');
+                    const orig = btn.textContent;
+                    btn.textContent = '¡Suscrito! ✓';
+                    btn.style.background = 'var(--color-success)';
+                    input.value = '';
+                    setTimeout(() => { btn.textContent = orig; btn.style.background = ''; }, 3000);
+                });
+            }
+
+        });
+    </script>
+</body>
+
+</html>

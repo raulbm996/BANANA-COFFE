@@ -1,0 +1,51 @@
+/* ====================================
+   BANANA COFFEE — Design Tokens
+   Variables, colores, tipografía
+   ==================================== */
+
+:root {
+    /* Colors */
+    --color-primary: #D4A574;
+    --color-primary-dark: #B8895A;
+    --color-primary-light: #F0DFC8;
+    --color-accent: #F5C542;
+    --color-accent-soft: #FFF3D6;
+    --color-dark: #2C2118;
+    --color-dark-soft: #4A3728;
+    --color-text: #5C4A3A;
+    --color-text-light: #8B7B6B;
+    --color-bg: #FFFBF5;
+    --color-bg-warm: #FDF6ED;
+    --color-bg-card: #FFFFFF;
+    --color-cream: #FAF3E8;
+    --color-white: #FFFFFF;
+    --color-success: #7CB587;
+    --color-border: #EDE4D8;
+
+    /* Typography */
+    --font-display: 'Playfair Display', Georgia, serif;
+    --font-body: 'Inter', -apple-system, sans-serif;
+    --font-elegant: 'Cormorant Garamond', Georgia, serif;
+
+    /* Spacing */
+    --section-padding: 120px 0;
+    --container-width: 1200px;
+
+    /* Transitions */
+    --transition-fast: 0.2s ease;
+    --transition-base: 0.3s ease;
+    --transition-slow: 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+
+    /* Shadows */
+    --shadow-sm: 0 2px 8px rgba(44, 33, 24, 0.06);
+    --shadow-md: 0 8px 30px rgba(44, 33, 24, 0.08);
+    --shadow-lg: 0 20px 60px rgba(44, 33, 24, 0.12);
+    --shadow-card: 0 4px 20px rgba(44, 33, 24, 0.06);
+
+    /* Border Radius */
+    --radius-sm: 8px;
+    --radius-md: 16px;
+    --radius-lg: 24px;
+    --radius-xl: 32px;
+    --radius-full: 9999px;
+}
